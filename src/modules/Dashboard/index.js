@@ -69,15 +69,35 @@ function Dashboard  () {
                 </div>
             </div>
             <div className="w-[50%] h-screen bg-white flex flex-col items-center">
-                <div className='w-[75%] bg-gray-100 h-[80px] mt-12 rounded-full flex items-center px-10'>
-                    <div>
+                <div className='w-[75%] bg-gray-100 h-[60px] mt-6 rounded-full flex items-center px-8'>
+                    <div className='cursor-pointer'>
                         <img src={User} height={50}b width={50} />
                     </div>
-                    <div className='ml-4'>
+                    <div className='ml-2 mr-auto'>
                         <h3 className='text-lg'>Shivani</h3>
                         <p className='text-sm font-light text-green-600'>Online</p>
                     </div>
+                    <div className='cursor-pointer flex space-x-5'>
+                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                           <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                           <path d="M15 7a2 2 0 0 1 2 2" />
+                           <path d="M15 3a6 6 0 0 1 6 6" />
+</                     svg>
+                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-zoom" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <path d="M17.011 9.385v5.128l3.989 3.487v-12z" />
+                          <path d="M3.887 6h10.08c1.468 0 3.033 1.203 3.033 2.803v8.196a.991 .991 0 0 1 -.975 1h-10.373c-1.667 0 -2.652 -1.5 -2.652 -3l.01 -8a.882 .882 0 0 1 .208 -.71a.841 .841 0 0 1 .67 -.287z" />
+                        </svg>
+                    </div>
                     
+                </div>
+                <div className='h-[75%] border w-full overflow-scroll'>
+                    <div className='h-[1000px] px-8 py-6'>
+                        <div className='h-[80px] w-[300px]  bg-gray-200 rounded-b-xl rounder-tr-xl'></div>
+                        <div className='h-[80px] w-[300px]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto'></div>
+                    </div>
+
                 </div>
 
             </div>
