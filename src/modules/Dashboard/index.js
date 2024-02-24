@@ -1,5 +1,6 @@
 import React from 'react'
 import User from '../../assests/avatar.svg'
+import Input from '../../components/input'
 
 function Dashboard  () {
     const contacts =[
@@ -92,15 +93,23 @@ function Dashboard  () {
                     </div>
                     
                 </div>
-                <div className='h-[75%] border w-full overflow-scroll'>
-                    <div className='h-[1000px] px-8 py-6'>
-                        <div className='h-[80px] w-[300px]  bg-gray-200 rounded-b-xl rounder-tr-xl'></div>
-                        <div className='h-[80px] w-[300px]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto'></div>
+                <div className='h-[75%] w-full overflow-scroll border-b'>
+                    <div className='p-14'>
+                        <div className=' max-w-[40%] bg-gray-200 rounded-b-xl rounder-tr-xl p-4 mb-6'>Hi Aryan , How are you ?</div>
+                        <div className=' max-w-[40%]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto p-4 mb-6'>Hello ji</div>
+                        <div className=' max-w-[40%] bg-gray-200 rounded-b-xl rounder-tr-xl p-4 mb-6'>Hi Aryan , How are you ?</div>
+                        <div className=' max-w-[40%]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto p-4 mb-6'>Hello ji</div>
+                        <div className=' max-w-[40%] bg-gray-200 rounded-b-xl rounder-tr-xl p-4 mb-6'>Hi Aryan , How are you ?</div>
+                        <div className=' max-w-[40%]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto p-4 mb-6'>Hello ji</div>
+                        <div className=' max-w-[40%] bg-gray-200 rounded-b-xl rounder-tr-xl p-4 mb-6'>Hi Aryan , How are you ?</div>
+                        <div className=' max-w-[40%]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto p-4 mb-6'>Hello ji</div>
                     </div>
-
                 </div>
-
+                <div className='p-14 w-full'>
+                  <Input placeholder='Type a message......' className='w-full'/>
+                </div>
             </div>
+            
             <div className="w-[25%] h-screen "></div>
         </div>
     )
