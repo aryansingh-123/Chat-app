@@ -70,7 +70,7 @@ function Dashboard  () {
                 </div>
             </div>
             <div className="w-[50%] h-screen bg-white flex flex-col items-center">
-                <div className='w-[75%] bg-gray-100 h-[60px] mt-6 rounded-full flex items-center px-8'>
+                <div className='w-[75%] bg-gray-100 h-[60px] my-6 rounded-full flex items-center px-8'>
                     <div className='cursor-pointer'>
                         <img src={User} height={50}b width={50} />
                     </div>
@@ -84,7 +84,7 @@ function Dashboard  () {
                            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                            <path d="M15 7a2 2 0 0 1 2 2" />
                            <path d="M15 3a6 6 0 0 1 6 6" />
-</                     svg>
+                        </svg>
                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-zoom" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" fill="none" stroke-linecap="round" stroke-linejoin="round">
                           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                           <path d="M17.011 9.385v5.128l3.989 3.487v-12z" />
@@ -93,7 +93,7 @@ function Dashboard  () {
                     </div>
                     
                 </div>
-                <div className='h-[75%] w-full overflow-scroll border-b'>
+                <div className='h-[75%] w-full overflow-scroll shadow-md'>
                     <div className='p-14'>
                         <div className=' max-w-[40%] bg-gray-200 rounded-b-xl rounder-tr-xl p-4 mb-6'>Hi Aryan , How are you ?</div>
                         <div className=' max-w-[40%]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto p-4 mb-6'>Hello ji</div>
@@ -105,8 +105,23 @@ function Dashboard  () {
                         <div className=' max-w-[40%]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto p-4 mb-6'>Hello ji</div>
                     </div>
                 </div>
-                <div className='p-14 w-full'>
-                  <Input placeholder='Type a message......' className='w-full'/>
+                <div className='p-14 w-full flex item-center'>
+                  <Input placeholder='Type a message......' className='w-[85%]' inputClassName='p-4 border-0 shadow-lg rounded-full bg-light focus:ring-0 focus:border-0 outline-none'/>
+                  <div className='ml-4 p-2 cursor-pointer shadow-lg bg-light rounded-full '>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                     <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                     <path d="M10 14l11 -11" />
+                    </svg>
+                  </div>
+                  <div className='ml-4 p-2 cursor-pointer shadow-lg bg-light rounded-full '>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-plus" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                        <path d="M9 12h6" />
+                        <path d="M12 9v6" />
+                    </svg>
+                  </div>
                 </div>
             </div>
             
