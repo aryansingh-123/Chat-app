@@ -93,7 +93,7 @@ function Dashboard  () {
                     </div>
                     
                 </div>
-                <div className='h-[75%] border w-full overflow-scroll'>
+                <div className='h-[75%] border w-full overflow-scroll shadow-lg'>
                     <div className='h-[1000px] px-8 py-6'>
                         <div className='h-[80px] w-[300px]  bg-gray-200 rounded-b-xl rounder-tr-xl'></div>
                         <div className='h-[80px] w-[300px]  bg-blue-200 rounded-b-xl rounder-tl-xl ml-auto'></div>
